@@ -1,0 +1,19 @@
+{
+  "name": "escolavoando2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "rsync": "rsync -avz -e 'ssh -p 7777' src/   deploy@192.241.134.114:/var/www/escolavoando.com.br/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7blazes/escolavoando2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7blazes/escolavoando2018/issues"
+  },
+  "homepage": "https://github.com/7blazes/escolavoando2018#readme"
+}
